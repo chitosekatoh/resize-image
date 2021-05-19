@@ -1,0 +1,84 @@
+.cs-form {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -50px;
+	margin-left: -250px;
+	width: 500px;
+	height: 170px;
+	border: 4px dashed rgb(105, 105, 105);
+}
+.cs-form p {
+	width: 100%;
+	height: 100%;
+	text-align: center;
+	line-height: 150px;
+	color: #6b6b6b;
+	font-family: Arial;
+}
+.cs-form input {
+	position: absolute;
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+	outline: none;
+	opacity: 0;
+}
+.cs-form button.upload {
+	margin: 0;
+	color: #fff;
+	background: #5886a0;
+	border: none;
+	width: 508px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: -4px;
+	border-radius: 4px;
+	transition: all 0.2s ease;
+	outline: none;
+}
+.cs-form button.upload:hover {
+	background: #016aa7;
+}
+.cs-form button.upload:active {
+	border: 0;
+}
+.cs-form button.download {
+	margin: 0;
+	color: #fff;
+	background: #a07558;
+	border: none;
+	width: 508px;
+	height: 35px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	margin-left: -4px;
+	border-radius: 4px;
+	transition: all 0.2s ease;
+	outline: none;
+}
+.cs-form button.download:hover {
+	background: #9e4001;
+}
+.cs-form button.download:active {
+	border: 0;
+}
+.cs-alert {
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	margin-top: -70px;
+	margin-left: -250px;
+	width: 495px;
+	border: 0;
+	border-radius: 4px;
+	color: #fff;
+	padding: 6px;
+	font-size: 14px;
+}
+.cs-alert-warning {
+	background-color: #fff9bd;
+	color: #b67a04;
+}

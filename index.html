@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>Discord用画像リサイズ</title>
+        <link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+        <div class="cs-alert cs-alert-warning">
+            アップロード可能な拡張子はjpg, jpeg, png, gifです。<br>
+            アップロードした画像は128*128pxにリサイズされます。<br>
+            デスクトップにリサイズ済み画像が保存されます。
+        </div>
+        <form class="cs-form" method="POST">
+            <input type="file" id="upload" multiple accept=".jpg, .jpeg, .png, .gif">
+            <p>アップロードしたい画像をドラッグしてください</p>
+        </form>
+	</body>
+    <script src="./index.js">
+    </script>
+</html>
