@@ -6,7 +6,6 @@ $(function () {
     $('#uploadedFileNum').text($(this)[0].files.length);
     for (var i=0; i < $(this)[0].files.length; i++) {
       file = $(this)[0].files[i];
-      console.log(file);
       switch (file.type) {
         case 'image/jpg':
           fileType = 'jpg';
