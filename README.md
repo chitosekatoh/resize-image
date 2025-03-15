@@ -1,4 +1,6 @@
 # resize-image
+任意の画像をDiscordスタンプの規定サイズに変換するためのアプリ
+Electronの練習目的で開発
 
 ### Electronで起動
 electron main.js
